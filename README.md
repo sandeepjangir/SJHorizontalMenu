@@ -11,7 +11,7 @@ A simple, horizontally-scrolling list of items that can be used as a more flexib
 
 The horizontal selection list uses a data-source/delegate model (similar to UITableView or UIPickerView).  To setup a simple horizontal selection list, init the view and set it's delegate and data source:
 ```objc
-@interface CarListViewController () <SJHorizontalMenuDataSource, SJHorizontalMenuDelegate>
+@interface YourViewControllerClass () <SJHorizontalMenuDataSource, SJHorizontalMenuDelegate>
 
 
 - (void)viewDidLoad {
